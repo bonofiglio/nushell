@@ -6025,7 +6025,7 @@ dependencies = [
 [[package]]
 name = "reedline"
 version = "0.40.0"
-source = "git+https://github.com/nushell/reedline?branch=main#405299b94b4cde1665d509f9e2ae9f5048fa5a76"
+source = "git+https://github.com/bonofiglio/reedline.git?branch=vi-change-mode-event#0548abacdce8e26f2692d3e0e2c224c014f58113"
 dependencies = [
  "arboard",
  "chrono",
@@ -8983,3 +8983,8 @@ dependencies = [
  "cc",
  "pkg-config",
 ]
+
+[[patch.unused]]
+name = "reedline"
+version = "0.40.0"
+source = "git+https://github.com/nushell/reedline?branch=main#405299b94b4cde1665d509f9e2ae9f5048fa5a76"
