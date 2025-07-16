@@ -2582,7 +2582,7 @@ fn test_collapse_big_0() {
             # To use a development version of a dependency please use a global override here
             # changing versions in each sub-crate of the workspace is tedious
             [patch.crates-io]
-            reedline = { git = "https://github.com/nushell/reedline.git", branch = "main" }
+            reedline = { git = "https://github.com/bonofiglio/reedline.git", branch = "vi-change-mode-event" }
 
             # Criterion benchmarking setup
             # Run all benchmarks with `cargo bench`
